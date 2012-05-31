@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.dispatcher;uses:="javax.servlet,org
+ .jfree.chart,org.apache.struts2,com.opensymphony.xwork2.util,com.open
+ symphony.xwork2,com.opensymphony.xwork2.util.logging,javax.servlet.ht
+ tp";version="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 JFreeChart Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706435986
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.util;version="2.2",com.opensymphony.xwork2.util.logging;versi
+ on="2.2",javax.servlet,javax.servlet.http,org.apache.struts2;version=
+ "2.2",org.apache.struts2.dispatcher;version="2.2",org.jfree.chart
+Bundle-SymbolicName: org.apache.struts.2-jfreechart-plugin
+Bundle-DocURL: http://www.apache.org
+

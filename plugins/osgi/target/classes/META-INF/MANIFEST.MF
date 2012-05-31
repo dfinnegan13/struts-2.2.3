@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.osgi;uses:="org.osgi.framework,com.
+ opensymphony.xwork2.util.finder,javax.servlet,freemarker.cache,com.op
+ ensymphony.xwork2.util.logging,org.apache.struts2.osgi.loaders,org.ap
+ ache.struts2.views.freemarker,com.opensymphony.xwork2.config.provider
+ s,com.opensymphony.xwork2.config.entities,com.opensymphony.xwork2,com
+ .opensymphony.xwork2.config.impl,com.opensymphony.xwork2.config,org.a
+ pache.struts2.util,com.opensymphony.xwork2.inject,org.apache.commons.
+ lang,com.opensymphony.xwork2.util,org.apache.felix.shell,org.apache.s
+ truts2,org.apache.felix.framework,org.osgi.util.tracker,org.apache.fe
+ lix.main,org.apache.struts2.views.velocity";version="2.2.3",org.apach
+ e.struts2.osgi.interceptor;uses:="org.osgi.framework,javax.servlet,co
+ m.opensymphony.xwork2,com.opensymphony.xwork2.inject,com.opensymphony
+ .xwork2.util.logging,com.opensymphony.xwork2.interceptor";version="2.
+ 2.3",org.apache.struts2.osgi.loaders;uses:="freemarker.cache,org.apac
+ he.struts2.osgi,org.apache.struts2.dispatcher,com.opensymphony.xwork2
+ .inject,org.apache.velocity.exception,org.apache.velocity.runtime.res
+ ource.loader";version="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 OSGi Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706446954
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.config;version="2.2",com.opensymphony.xwork2.config.entities;
+ version="2.2",com.opensymphony.xwork2.config.impl;version="2.2",com.o
+ pensymphony.xwork2.config.providers;version="2.2",com.opensymphony.xw
+ ork2.inject;version="2.2",com.opensymphony.xwork2.interceptor;version
+ ="2.2",com.opensymphony.xwork2.util;version="2.2",com.opensymphony.xw
+ ork2.util.finder;version="2.2",com.opensymphony.xwork2.util.logging;v
+ ersion="2.2",freemarker.cache,javax.servlet,org.apache.commons.lang;v
+ ersion="2.5",org.apache.felix.framework,org.apache.felix.main,org.apa
+ che.felix.shell;version="1.0",org.apache.struts2;version="2.2",org.ap
+ ache.struts2.dispatcher;version="2.2",org.apache.struts2.osgi;version
+ ="2.2",org.apache.struts2.osgi.interceptor;version="2.2",org.apache.s
+ truts2.osgi.loaders;version="2.2",org.apache.struts2.util;version="2.
+ 2",org.apache.struts2.views.freemarker;version="2.2",org.apache.strut
+ s2.views.velocity;version="2.2",org.apache.velocity.exception,org.apa
+ che.velocity.runtime.resource.loader,org.osgi.framework;version="1.4"
+ ,org.osgi.util.tracker;version="1.3"
+Bundle-SymbolicName: org.apache.struts.2-osgi-plugin
+Bundle-DocURL: http://www.apache.org
+

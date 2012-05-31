@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.oval.annotation;version="2.2.3",org
+ .apache.struts2.oval.interceptor;uses:="net.sf.oval.configuration.ann
+ otation,net.sf.oval.configuration,com.opensymphony.xwork2.util,com.op
+ ensymphony.xwork2.util.logging,net.sf.oval.configuration.xml,com.open
+ symphony.xwork2,com.opensymphony.xwork2.inject,org.apache.struts2.ova
+ l.annotation,org.apache.commons.lang,net.sf.oval.context,com.opensymp
+ hony.xwork2.validator,com.opensymphony.xwork2.config.entities,net.sf.
+ oval,com.opensymphony.xwork2.interceptor";version="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 OVal Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706444143
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.config.entities;version="2.2",com.opensymphony.xwork2.inject;
+ version="2.2",com.opensymphony.xwork2.interceptor;version="2.2",com.o
+ pensymphony.xwork2.util;version="2.2",com.opensymphony.xwork2.util.lo
+ gging;version="2.2",com.opensymphony.xwork2.validator;version="2.2",n
+ et.sf.oval,net.sf.oval.configuration,net.sf.oval.configuration.annota
+ tion,net.sf.oval.configuration.xml,net.sf.oval.context,org.apache.com
+ mons.lang;version="2.5",org.apache.struts2.oval.annotation;version="2
+ .2",org.apache.struts2.oval.interceptor;version="2.2"
+Bundle-SymbolicName: org.apache.struts.2-oval-plugin
+Bundle-DocURL: http://www.apache.org
+

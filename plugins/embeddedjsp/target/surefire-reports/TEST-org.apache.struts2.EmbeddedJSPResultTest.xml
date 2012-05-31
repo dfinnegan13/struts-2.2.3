@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="2.042" errors="0" skipped="0" tests="16" name="org.apache.struts2.EmbeddedJSPResultTest">
+  <properties>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/dave/.m2/repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.SECURITYSESSIONID" value="186a5"/>
+    <property name="env.NEXUS_HOME" value="/Users/dave/Sonatype/installs/nexus/2.0.2/server1/nexus-professional-2.0.2"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="env.TMPDIR" value="/var/folders/gj/vtc97vlx5r7_2yw0jmqhd6z80000gn/T/"/>
+    <property name="env.Apple_Ubiquity_Message" value="/tmp/launch-NktMZl/Apple_Ubiquity_Message"/>
+    <property name="env.PWD" value="/Users/dave/workspace/apache/struts/struts-2.2.3/src"/>
+    <property name="env.LANG" value="C"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.runtime.version" value="1.6.0_31-b04-415-11M3646"/>
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-KmI1Tp/Render"/>
+    <property name="env.DISPLAY" value="/tmp/launch-JVd2PZ/org.x:0"/>
+    <property name="user.name" value="dave"/>
+    <property name="env.USER" value="dave"/>
+    <property name="env.SHELL" value="/bin/bash"/>
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0:0"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="env.home" value="/Users/dave"/>
+    <property name="env.EMACSDATA" value="/Applications/Emacs.app/Contents/Resources/etc"/>
+    <property name="env.PATH" value="/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home/bin:/Users/dave/Sonatype/installs/maven/apache-maven-3.0.4/bin:/Users/dave/local/android-sdk-macosx/platform-tools:/Users/dave/bin:/Users/dave/bin/i686:./bin:/usr/local/git/bin:/Users/dave/Sonatype/installs/maven/apache-maven-3.0.4/bin:/Users/dave/Sonatype/installs/nexus/2.0.2/server1/nexus-professional-2.0.2/bin:/usr/local/bin:/usr/bin:/usr/sbin:/bin:/sbin:."/>
+    <property name="user.language" value="en"/>
+    <property name="env.JAVA_MAIN_CLASS_41068" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="classworlds.conf" value="/Users/dave/.hudson/maven/slavebundle/bundled-maven/bin/m2.conf"/>
+    <property name="java.version" value="1.6.0_31"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="hudson.eventspy.port" value="59956"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="env.SHLVL" value="3"/>
+    <property name="env.P4PORT" value="dave.efinnegan.com:1666"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="env.MAVEN_SKIP_RC" value="true"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="user.country" value="US"/>
+    <property name="env.EMACSDOC" value="/Applications/Emacs.app/Contents/Resources/etc"/>
+    <property name="env.BUILD_NUMBER" value="5"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.LOGNAME" value="dave"/>
+    <property name="env.PYTHONSTARTUP" value="/Users/dave/.pythonrc"/>
+    <property name="os.version" value="10.7.3"/>
+    <property name="env.HUDSON_COOKIE" value="246b33a4-2864-4fd3-b0a7-b6541fae7a7d"/>
+    <property name="env.P4CLIENT" value="dave.efinnegan.com"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="20.6-b01-415"/>
+    <property name="maven.ext.class.path" value="/Users/dave/.hudson/maven/slavebundle/resources:/Users/dave/.hudson/maven/slavebundle/lib/maven3-eventspy-3.0.jar:/Users/dave/Sonatype/installs/hudson/tomcat/apache-tomcat-7.0.26/webapps/ROOT/WEB-INF/lib/hudson-remoting-2.2.0.jar"/>
+    <property name="env.EMACSPATH" value="/Applications/Emacs.app/Contents/MacOS/bin"/>
+    <property name="env.JOB_NAME" value="struts-2.2.3"/>
+    <property name="env.EMACS" value="t"/>
+    <property name="env.JAVA_HOME" value="/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home"/>
+    <property name="env.MAILHOST" value="smtp.gmail.com"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="env.TERM" value="dumb"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="env.AEC_IP" value="75.101.207.49"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="env.MANPATH" value="/usr/share/man"/>
+    <property name="env.HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="env.COLUMNS" value="81"/>
+    <property name="env.BUILD_TAG" value="hudson-struts-2.2.3-5"/>
+    <property name="user.home" value="/Users/dave"/>
+    <property name="env.JOB_URL" value="http://localhost:8080/job/struts-2.2.3/"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="env.M2_HOME" value="/Users/dave/.hudson/maven/slavebundle/bundled-maven"/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="env.HUDSON_HOME" value="/Users/dave/.hudson"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="env.HUDSON_SERVER_COOKIE" value="741cb45d6dfd851ecfbaae2ae56f4e91"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/dave/.hudson/maven/slavebundle/bundled-maven"/>
+    <property name="java.class.path" value="/Users/dave/.hudson/maven/slavebundle/bundled-maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -V -B -Dmaven.ext.class.path=/Users/dave/.hudson/maven/slavebundle/resources:/Users/dave/.hudson/maven/slavebundle/lib/maven3-eventspy-3.0.jar:/Users/dave/Sonatype/installs/hudson/tomcat/apache-tomcat-7.0.26/webapps/ROOT/WEB-INF/lib/hudson-remoting-2.2.0.jar -Dhudson.eventspy.port=59956 -f pom.xml"/>
+    <property name="env.AEC_HOST" value="ec2-75-101-207-49.compute-1.amazonaws.com"/>
+    <property name="env.EXECUTOR_NUMBER" value="0"/>
+    <property name="env.com.apple.java.jvmMode" value="client"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="surefire.test.class.path" value="/Users/dave/workspace/apache/struts/struts-2.2.3/src/plugins/embeddedjsp/target/test-classes:/Users/dave/workspace/apache/struts/struts-2.2.3/src/plugins/embeddedjsp/target/classes:/Users/dave/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/Users/dave/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/dave/.m2/repository/org/springframework/spring-test/2.5.6/spring-test-2.5.6.jar:/Users/dave/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/dave/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/dave/.m2/repository/org/easymock/easymock/2.4/easymock-2.4.jar:/Users/dave/.m2/repository/taglibs/request/1.0.1/request-1.0.1.jar:/Users/dave/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar:/Users/dave/.m2/repository/org/apache/tomcat/juli/6.0.18/juli-6.0.18.jar:/Users/dave/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/Users/dave/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/dave/.m2/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar:/Users/dave/.m2/repository/org/apache/tomcat/jasper/6.0.18/jasper-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/servlet-api/6.0.18/servlet-api-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/jsp-api/6.0.18/jsp-api-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/catalina/6.0.18/catalina-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/annotations-api/6.0.18/annotations-api-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/el-api/6.0.18/el-api-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/jasper-jdt/6.0.18/jasper-jdt-6.0.18.jar:/Users/dave/.m2/repository/org/apache/tomcat/jasper-el/6.0.18/jasper-el-6.0.18.jar:/Users/dave/workspace/apache/struts/struts-2.2.3/src/core/target/struts2-core-2.2.3.jar:/Users/dave/workspace/apache/struts/struts-2.2.3/src/xwork-core/target/xwork-core-2.2.3.jar:/Users/dave/.m2/repository/asm/asm/3.1/asm-3.1.jar:/Users/dave/.m2/repository/asm/asm-commons/3.1/asm-commons-3.1.jar:/Users/dave/.m2/repository/asm/asm-tree/3.1/asm-tree-3.1.jar:/Users/dave/.m2/repository/org/freemarker/freemarker/2.3.16/freemarker-2.3.16.jar:/Users/dave/.m2/repository/ognl/ognl/3.0.1/ognl-3.0.1.jar:/Users/dave/.m2/repository/javassist/javassist/3.11.0.GA/javassist-3.11.0.GA.jar:/Users/dave/.m2/repository/commons-fileupload/commons-fileupload/1.2.2/commons-fileupload-1.2.2.jar:/Users/dave/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:target/test-classes/jsps.jar:"/>
+    <property name="java.io.tmpdir" value="/var/folders/gj/vtc97vlx5r7_2yw0jmqhd6z80000gn/T/"/>
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/struts-2.2.3/5/"/>
+    <property name="env.LD_LIBRARY_PATH" value="/lib:/usr/lib"/>
+    <property name="env.EMACSLOADPATH" value="/Applications/Emacs.app/Contents/Resources/site-lisp:/Applications/Emacs.app/Contents/Resources/lisp:/Applications/Emacs.app/Contents/Resources/leim"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="env.INSIDE_EMACS" value="23.4.1,comint"/>
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-INkMLJ/Listeners"/>
+    <property name="env.COMMAND_MODE" value="unix2003"/>
+    <property name="mrj.build" value="11M3646"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="env.AEC_KEY" value="/Users/dave/.ssh/amazonws_001.pem"/>
+    <property name="user.dir" value="/Users/dave/workspace/apache/struts/struts-2.2.3/src/plugins/embeddedjsp"/>
+    <property name="mrj.version" value="1070.1.6.0_31-415"/>
+    <property name="env.com.apple.java.jvmTask" value="CommandLine_Manual.java.java"/>
+    <property name="env.BUILD_ID" value="2012-05-22_13-04-58"/>
+    <property name="env.INFOPATH" value="/Applications/Emacs.app/Contents/Resources/info:"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="basedir" value="/Users/dave/workspace/apache/struts/struts-2.2.3/src/plugins/embeddedjsp"/>
+    <property name="env.P4ROOT" value="/usr/local/p4depot"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="env.WORKSPACE" value="/Users/dave/workspace/apache/struts/struts-2.2.3/src"/>
+    <property name="env.JAVA_MAIN_CLASS_41478" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="env.NODE_LABELS" value="master"/>
+  </properties>
+  <testcase time="0.229" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testScriptlet"/>
+  <testcase time="0.778" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testEmbedded"/>
+  <testcase time="0.036" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testFilesAreReadOnlyOnce"/>
+  <testcase time="0.001" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testEmbeddedAbsolutePath"/>
+  <testcase time="0.001" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testSimple"/>
+  <testcase time="0.041" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testEL"/>
+  <testcase time="0.369" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testTag0"/>
+  <testcase time="0.035" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testIncludeSimple"/>
+  <testcase time="0.034" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testIncludeSimpleWithDirective"/>
+  <testcase time="0.075" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testIncludeWithSubdir"/>
+  <testcase time="0.041" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testIncludeWithParam"/>
+  <testcase time="0.006" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testBroken0"/>
+  <testcase time="0.248" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testJSTL"/>
+  <testcase time="0.04" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testCachedInstances"/>
+  <testcase time="0.06" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testCacheInstanceWithManyThreads"/>
+  <testcase time="0.041" classname="org.apache.struts2.EmbeddedJSPResultTest" name="testBeans"/>
+</testsuite>

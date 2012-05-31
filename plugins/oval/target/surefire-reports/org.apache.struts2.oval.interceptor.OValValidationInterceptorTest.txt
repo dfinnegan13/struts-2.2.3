@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.struts2.oval.interceptor.OValValidationInterceptorTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.65 sec

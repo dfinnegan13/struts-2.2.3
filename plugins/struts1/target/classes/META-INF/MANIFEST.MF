@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.s1;uses:="org.apache.struts.action,
+ org.apache.struts2,com.opensymphony.xwork2.config.entities,com.opensy
+ mphony.xwork2,com.opensymphony.xwork2.inject,com.opensymphony.xwork2.
+ config,com.opensymphony.xwork2.interceptor,javax.servlet.http,javax.s
+ ervlet,org.apache.struts.config,org.xml.sax,com.opensymphony.xwork2.u
+ til.logging,org.apache.commons.validator,org.apache.commons.beanutils
+ ,ognl,org.apache.struts2.dispatcher,org.apache.struts.util";version="
+ 2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 Struts 1 Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706403620
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.config;version="2.2",com.opensymphony.xwork2.config.entities;
+ version="2.2",com.opensymphony.xwork2.inject;version="2.2",com.opensy
+ mphony.xwork2.interceptor;version="2.2",com.opensymphony.xwork2.util.
+ logging;version="2.2",javax.servlet,javax.servlet.http,ognl,org.apach
+ e.commons.beanutils;version="1.8",org.apache.commons.validator,org.ap
+ ache.struts.action,org.apache.struts.config,org.apache.struts.util,or
+ g.apache.struts2;version="2.2",org.apache.struts2.dispatcher;version=
+ "2.2",org.apache.struts2.s1;version="2.2",org.xml.sax
+Bundle-SymbolicName: org.apache.struts.2-struts1-plugin
+Bundle-DocURL: http://www.apache.org
+

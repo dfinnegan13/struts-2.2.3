@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2;version="2.2.3",org.apache.struts2.
+ sitegraph;uses:="org.apache.struts2,com.opensymphony.xwork2.util.logg
+ ing,org.apache.struts2.sitegraph.renderers,javax.servlet,org.apache.s
+ truts2.sitegraph.entities,org.apache.struts2.config,com.opensymphony.
+ xwork2.config.entities,com.opensymphony.xwork2.config";version="2.2.3
+ ",org.apache.struts2.sitegraph.entities;uses:="com.opensymphony.xwork
+ 2.util.logging";version="2.2.3",org.apache.struts2.sitegraph.model;ve
+ rsion="2.2.3",org.apache.struts2.sitegraph.renderers;uses:="org.apach
+ e.struts2.sitegraph.model,org.apache.struts2.sitegraph.entities,com.o
+ pensymphony.xwork2.config.entities,com.opensymphony.xwork2,org.apache
+ .struts2.sitegraph";version="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 Sitegraph Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706441102
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.config;version="2.2",com.opensymphony.xwork2.config.entities;
+ version="2.2",com.opensymphony.xwork2.util.logging;version="2.2",java
+ x.servlet,org.apache.struts2;version="2.2",org.apache.struts2.config;
+ version="2.2",org.apache.struts2.sitegraph;version="2.2",org.apache.s
+ truts2.sitegraph.entities;version="2.2",org.apache.struts2.sitegraph.
+ model;version="2.2",org.apache.struts2.sitegraph.renderers;version="2
+ .2"
+Bundle-SymbolicName: org.apache.struts.2-sitegraph-plugin
+Bundle-DocURL: http://www.apache.org
+

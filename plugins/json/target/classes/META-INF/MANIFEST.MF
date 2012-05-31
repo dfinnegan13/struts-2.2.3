@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.json;uses:="com.opensymphony.xwork2
+ .util,com.opensymphony.xwork2.util.logging,com.opensymphony.xwork2,co
+ m.opensymphony.xwork2.inject,org.apache.struts2.json.rpc,org.apache.s
+ truts2.dispatcher,org.apache.struts2,com.opensymphony.xwork2.intercep
+ tor,org.apache.struts2.json.annotations,javax.servlet.http,org.apache
+ .struts2.json.smd,org.apache.commons.lang,javax.servlet,org.apache.st
+ ruts2.json.bridge";version="2.2.3",org.apache.struts2.json.annotation
+ s;uses:="org.apache.struts2.json.bridge";version="2.2.3",org.apache.s
+ truts2.json.bridge;version="2.2.3",org.apache.struts2.json.rpc;uses:=
+ "com.opensymphony.xwork2.util.logging";version="2.2.3",org.apache.str
+ uts2.json.smd;uses:="com.opensymphony.xwork2,com.opensymphony.xwork2.
+ util.logging,org.apache.struts2.json,org.apache.struts2.json.annotati
+ ons,javax.servlet.http";version="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 JSON Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706447948
+Bundle-Activator: org.apache.struts2.osgi.StrutsActivator
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.inject;version="2.2",com.opensymphony.xwork2.interceptor;vers
+ ion="2.2",com.opensymphony.xwork2.util;version="2.2",com.opensymphony
+ .xwork2.util.logging;version="2.2",javax.servlet,javax.servlet.http,o
+ rg.apache.commons.lang;version="2.5",org.apache.struts2;version="2.2"
+ ,org.apache.struts2.dispatcher;version="2.2",org.apache.struts2.json;
+ version="2.2",org.apache.struts2.json.annotations;version="2.2",org.a
+ pache.struts2.json.bridge;version="2.2",org.apache.struts2.json.rpc;v
+ ersion="2.2",org.apache.struts2.json.smd;version="2.2",org.apache.str
+ uts2.osgi
+Bundle-SymbolicName: org.apache.struts.2-json-plugin
+Bundle-DocURL: http://www.apache.org
+

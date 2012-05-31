@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.plexus;uses:="org.codehaus.plexus,j
+ avax.servlet,com.opensymphony.xwork2.util.logging,javax.servlet.http,
+ com.opensymphony.xwork2,com.opensymphony.xwork2.inject,com.opensympho
+ ny.xwork2.config,com.opensymphony.xwork2.validator,com.opensymphony.x
+ work2.config.entities,com.opensymphony.xwork2.util.reflection,com.ope
+ nsymphony.xwork2.interceptor,org.codehaus.plexus.configuration";versi
+ on="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 Plexus Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706439996
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.xwork2;version="2.2",com.opensymphony
+ .xwork2.config;version="2.2",com.opensymphony.xwork2.config.entities;
+ version="2.2",com.opensymphony.xwork2.inject;version="2.2",com.opensy
+ mphony.xwork2.interceptor;version="2.2",com.opensymphony.xwork2.util.
+ logging;version="2.2",com.opensymphony.xwork2.util.reflection;version
+ ="2.2",com.opensymphony.xwork2.validator;version="2.2",javax.servlet,
+ javax.servlet.http,org.apache.struts2.plexus;version="2.2",org.codeha
+ us.plexus,org.codehaus.plexus.configuration
+Bundle-SymbolicName: org.apache.struts.2-plexus-plugin
+Bundle-DocURL: http://www.apache.org
+

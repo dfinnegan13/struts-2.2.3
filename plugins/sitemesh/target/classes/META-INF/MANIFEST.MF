@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Export-Package: org.apache.struts2.sitemesh;uses:="com.opensymphony.xw
+ ork2.util,com.opensymphony.module.sitemesh,com.opensymphony.xwork2,co
+ m.opensymphony.xwork2.inject,javax.servlet,org.apache.struts2.dispatc
+ her,org.apache.struts2,freemarker.core,com.opensymphony.xwork2.util.l
+ ogging,freemarker.ext.servlet,org.apache.struts2.views.freemarker,fre
+ emarker.template,org.apache.struts2.dispatcher.ng.listener,javax.serv
+ let.http,com.opensymphony.sitemesh.webapp.decorator,com.opensymphony.
+ sitemesh.webapp,com.opensymphony.sitemesh.compatability,com.opensymph
+ ony.sitemesh,com.opensymphony.module.sitemesh.mapper,com.opensymphony
+ .xwork2.interceptor,org.apache.struts2.dispatcher.mapper,com.opensymp
+ hony.xwork2.util.profiling,org.apache.velocity.context,org.apache.str
+ uts2.views.velocity,org.apache.velocity,org.apache.velocity.app,com.o
+ pensymphony.module.sitemesh.factory,org.apache.commons.lang,org.apach
+ e.velocity.tools.view.servlet,org.apache.velocity.tools.view,com.open
+ symphony.module.sitemesh.util";version="2.2.3"
+Tool: Bnd-0.0.357
+Bundle-Name: Struts 2 Sitemesh Plugin
+Created-By: 1.6.0_31 (Apple Inc.)
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 2.2.3
+Bnd-LastModified: 1337706416913
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Apache Struts 2
+Import-Package: com.opensymphony.module.sitemesh,com.opensymphony.modu
+ le.sitemesh.factory,com.opensymphony.module.sitemesh.mapper,com.opens
+ ymphony.module.sitemesh.util,com.opensymphony.sitemesh,com.opensympho
+ ny.sitemesh.compatability,com.opensymphony.sitemesh.webapp,com.opensy
+ mphony.sitemesh.webapp.decorator,com.opensymphony.xwork2;version="2.2
+ ",com.opensymphony.xwork2.inject;version="2.2",com.opensymphony.xwork
+ 2.interceptor;version="2.2",com.opensymphony.xwork2.util;version="2.2
+ ",com.opensymphony.xwork2.util.logging;version="2.2",com.opensymphony
+ .xwork2.util.profiling;version="2.2",freemarker.core,freemarker.ext.s
+ ervlet,freemarker.template,javax.servlet,javax.servlet.http,org.apach
+ e.commons.lang;version="2.5",org.apache.struts2;version="2.2",org.apa
+ che.struts2.dispatcher;version="2.2",org.apache.struts2.dispatcher.ma
+ pper;version="2.2",org.apache.struts2.dispatcher.ng.listener;version=
+ "2.2",org.apache.struts2.sitemesh;version="2.2",org.apache.struts2.vi
+ ews.freemarker;version="2.2",org.apache.struts2.views.velocity;versio
+ n="2.2",org.apache.velocity,org.apache.velocity.app,org.apache.veloci
+ ty.context,org.apache.velocity.tools.view,org.apache.velocity.tools.v
+ iew.servlet
+Bundle-SymbolicName: org.apache.struts.2-sitemesh-plugin
+Bundle-DocURL: http://www.apache.org
+
